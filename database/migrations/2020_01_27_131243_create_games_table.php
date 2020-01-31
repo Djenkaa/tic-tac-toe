@@ -22,7 +22,7 @@ class CreateGamesTable extends Migration
             $table->string('player2');
             $table->text('game_fields');
             $table->bigInteger('duration');
-            $table->integer('winner');
+            $table->integer('winner')->nullable();
             $table->timestamps();
         });
     }
