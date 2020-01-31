@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73984cfe-cb0c-453a-8b26-dbfb9d1a8cd8" name="Default Changelist" comment="" />
+    <list default="true" id="73984cfe-cb0c-453a-8b26-dbfb9d1a8cd8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/game.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/js/game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12366">
-              <caret line="644" column="24" lean-forward="true" selection-start-line="644" selection-start-column="24" selection-end-line="644" selection-end-column="24" />
+            <state relative-caret-position="297">
+              <caret line="98" selection-start-line="98" selection-end-line="98" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -61,7 +65,11 @@
       <find>computer</find>
       <find>all</find>
       <find>computerR</find>
+      <find>endGa</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -182,6 +190,7 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -213,6 +222,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -257,18 +267,18 @@
       <workItem from="1580382365046" duration="9143000" />
       <workItem from="1580405525435" duration="6482000" />
       <workItem from="1580467347721" duration="6940000" />
-      <workItem from="1580474837777" duration="753000" />
+      <workItem from="1580474837777" duration="1042000" />
+      <workItem from="1580480193081" duration="527000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58770000" />
+    <option name="totallyTimeSpent" value="59586000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25456497" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25832438" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -283,7 +293,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053704" side_tool="true" weight="0.16759777" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946293" visible="true" weight="0.2592179" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49946293" visible="true" weight="0.2427293" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -497,8 +507,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12366">
-          <caret line="644" column="24" lean-forward="true" selection-start-line="644" selection-start-column="24" selection-end-line="644" selection-end-column="24" />
+        <state relative-caret-position="297">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>

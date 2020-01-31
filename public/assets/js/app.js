@@ -38089,7 +38089,8 @@ $(document).ready(function () {
   }); //playing game
 
   $(document).on('click', '.field', function () {
-    //if game over
+    console.log(gameOver); //if game over
+
     if (!gameOver) {
       //if game mode is multyplayer
       if (mod == 2) {
@@ -38119,7 +38120,6 @@ $(document).ready(function () {
           //Fill the field which player has clicked on
           $(this).html("<h1>" + player1.ox + "</h1>");
           remainingFields--;
-          gameOver = true;
           setTimeout(function () {
             //computer move
             computerRadnomTurn();
@@ -38133,8 +38133,6 @@ $(document).ready(function () {
             if (remainingFields < 1 && !checkWinner()) {
               endGame();
             }
-
-            gameOver = false;
           }, 500);
         }
       }
@@ -38190,9 +38188,14 @@ $(document).ready(function () {
         winner = player2;
       } //if game mode is singleplayer
 
-    } else {
+    } else if (mod == 1) {
       //checking the player's character on the winning combination
-      computer.ox == checkWinner() ? winner = computer : winner = '';
+      if (computer.ox == checkWinner()) {
+        winner = computer;
+      } else if (player1.ox == checkWinner()) {
+        winner = player1;
+      }
+
       player2 = computer;
     } //increasing the score of the winner
 

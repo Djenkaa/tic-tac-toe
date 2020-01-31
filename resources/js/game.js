@@ -96,7 +96,7 @@ $(document).ready(function () {
 
     //playing game
     $(document).on('click', '.field', function () {
-
+    console.log(gameOver);
         //if game over
         if (!gameOver) {
 
@@ -136,7 +136,7 @@ $(document).ready(function () {
                     //Fill the field which player has clicked on
                     $(this).html("<h1>" + player1.ox + "</h1>");
                     remainingFields--;
-                    gameOver = true;
+
 
 
                     setTimeout(function () {
@@ -154,7 +154,7 @@ $(document).ready(function () {
                         if(remainingFields < 1 && !checkWinner()){
                             endGame();
                         }
-                        gameOver = false;
+
                     }, 500);
                 }
             }
@@ -221,11 +221,14 @@ $(document).ready(function () {
 
                 }
                 //if game mode is singleplayer
-            }else{
+            }else if(mod == 1){
                 //checking the player's character on the winning combination
-                computer.ox == checkWinner() ? winner = computer : winner = '';
+                if(computer.ox == checkWinner()){
+                    winner = computer
+                }else if(player1.ox == checkWinner()){
+                    winner = player1;
+                }
                 player2 = computer;
-
             }
 
             //increasing the score of the winner
